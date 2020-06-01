@@ -13,10 +13,10 @@ namespace aspnet_core_test.Infrastructure
 
         PersonEntity GetById(int id);
 
-        void Create(PersonEntity entity);
+        int Create(PersonEntity entity);
 
-        void Update(int id, PersonEntity entity);
+        int Update(int id, PersonEntity entity);
 
-        void Delete(int id);
+        int Delete(int id);
     }
 }
